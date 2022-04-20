@@ -13,7 +13,7 @@
 #         For example, if some_char in 'abc':
 
 letter =  input('Please enter a letter from the alphabet (a-z or A-Z): ').lower()
-if letter == 'a','e','i','o','u':
+if letter == 'a e i o u':
     print(f'The letter {letter} is a vowel')
      else:
     print(f'The letter {letter} is a consonant')

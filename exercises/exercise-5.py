@@ -13,7 +13,14 @@
 
 # Hint: The next number is found by adding the two numbers before it
 
-x,y = 0,1
-while y<50:
-    print(y)
-    x,y = y,x+y
+term = 0
+x = 0
+y = 1
+while tem <50:
+    print(f'term: {term} / numer: {term}')
+    else:
+        num = x + y
+        print(f'term: {term} / number: {num}')
+           x = y
+           y = num
+           term +=1
